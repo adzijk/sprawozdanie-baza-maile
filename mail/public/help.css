@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+}
+
+.help-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.help-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.help-header h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.help-header h2 {
+  font-size: 1.2rem;
+  color: #666;
+  font-weight: normal;
+}
+
+.help-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.help-list li {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  list-style-type: none;
+}
+
+.help-list ul li {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  list-style-type: disc;
+}
+
+.help-list h3 {
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 0.75rem;
+  border-bottom: 2px solid #e2e2e2;
+  padding-bottom: 0.5rem;
+}
+
+.help-list h4 {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.help-list p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.help-list ul {
+  margin-left: 2rem;
+}
+
+.help-list ul li {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+table th,
+table td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #f5f5f5;
+  color: #333;
+  font-weight: bold;
+}
+
+table td {
+  background-color: #fafafa;
+}
+
+pre {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 1rem;
+  border-left: 4px solid #d6336c;
+  overflow-x: auto;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+code {
+  font-family: "Courier New", monospace;
+  font-size: 1.05rem;
+  color: #d6336c;
+}
