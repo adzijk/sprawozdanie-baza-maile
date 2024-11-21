@@ -1,4 +1,0 @@
-1. Możliwości i wymagania aplikacji node dla komunikacji z bazą danych.
-
-
-2. Możliwości i wymagania co do wysyłania wiadomości e-mail z pooziomu aplikacji Node.js.
